@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.applemacbookpro.unicity.Main16Activity"
+    android:background="@android:color/holo_blue_bright">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin "
+        android:id="@+id/textView37"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Go to bus tracking"
+        android:onClick="onclickbus"
+        android:id="@+id/textView38"
+        android:textColor="#000000"
+        android:textSize="34dp"
+        android:clickable="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="108dp"
+        android:background="@color/material_grey_300"
+        android:elevation="4dp"
+        android:layout_below="@+id/textView37"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView39"
+        android:textAlignment="center"
+        android:text="Continue to Home"
+        android:onClick="onclickhome"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="86dp"
+        android:background="@color/material_grey_300"
+        android:elevation="4dp"
+        android:textColor="#000000"
+        android:textSize="34dp"
+        android:clickable="true"
+        android:layout_below="@+id/textView38"
+        android:layout_alignLeft="@+id/textView38"
+        android:layout_alignStart="@+id/textView38"
+       />
+
+</RelativeLayout>
